@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
   app: {
+    baseURL: '/Agroport-Logistics/',
     head: {
       link: [
         { rel: "icon", type: "image/png", href: "/favicon.png" }
